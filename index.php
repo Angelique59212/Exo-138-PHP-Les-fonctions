@@ -13,9 +13,10 @@ maFonction();
 //Troisieme ligne
 
 function maFonctionParam($fname, $lname) {
-    echo "hello $fname $lname<br>" ;
+    echo $fname;
+    return $lname ;
 }
-maFonctionParam('Dehainaut', "Angélique");
+maFonctionParam('Angélique', "Dehainaut");
 
 
 
